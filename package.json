@@ -1,0 +1,13 @@
+
+  {
+    "name": "frontendplayground",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd frontEndPlayground.client && npm i",
+      "setup:server": "cd frontEndPlayground && npm i",
+      "start": "node frontEndPlayground/index.js"
+    }
+  }
+  
